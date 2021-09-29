@@ -170,6 +170,8 @@ function showScores(){
 function playAgain(){
     startingTime = 1/6
     time = startingTime * 60;
+    selectedQuestion = 0;
+    yourScore = 0;
     startGame()
 }
 // execute code
